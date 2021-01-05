@@ -3,9 +3,11 @@ module.exports = {
 	extends: '@sveltejs/snowpack-config',
 	plugins: ['@snowpack/plugin-typescript'],
 	mount: {
+		'src/pages': '/_pages',
 		'src/components': '/_components'
 	},
 	alias: {
+		$pages: './src/pages',
 		$components: './src/components'
 	}
 };

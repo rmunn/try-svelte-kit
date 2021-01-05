@@ -1,2 +1,9 @@
-<h1>About</h1>
-<p>Hi there</p>
+<script>
+    import Nav from '$components/Nav.svelte';
+    import About from '$pages/about.md';
+</script>
+
+<main>
+    <Nav/>
+    <About/>
+</main>
