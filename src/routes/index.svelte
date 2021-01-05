@@ -1,8 +1,10 @@
 <script>
 	import Counter from '$components/Counter.svelte';
+	import Nav from '$components/Nav.svelte';
 </script>
 
 <main>
+	<Nav/>
 	<h1>Hello world!</h1>
 
 	<Counter/>
