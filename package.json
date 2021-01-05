@@ -6,6 +6,9 @@
 		"build": "svelte-kit build",
 		"start": "svelte-kit start"
 	},
+	"resolutions": {
+		"snowpack": "2.17.0"
+	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "next",
 		"@sveltejs/kit": "next",
