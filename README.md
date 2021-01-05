@@ -1,4 +1,10 @@
-# create-svelte
+# Try Svelte Kit
+
+A project to try out the current (as of 2021-01-05) state of @sveltejs/kit
+
+Copyright ⓒ 2021 Robin Munn (rmunn@pobox.com) and licensed under the [MIT license](LICENSE.md).
+
+## Original README
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
