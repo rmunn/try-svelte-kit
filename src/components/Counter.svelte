@@ -1,5 +1,6 @@
 <script lang="ts">
 	let count: number = 0;
+	$: doubled = count * 2;
 
 	const increment = () => {
 		count += 1;
@@ -9,6 +10,7 @@
 <button on:click={increment}>
 	Clicks: {count}
 </button>
+Twice {count} is {doubled}.
 
 <style lang="scss">
 	button {
