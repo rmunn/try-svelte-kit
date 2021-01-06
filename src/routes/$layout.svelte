@@ -1,5 +1,5 @@
 <svelte:head>
-    <base href="/try-svelte-kit">
+    <base href="https://rmunn.github.io/try-svelte-kit">
 </svelte:head>
 
 <slot></slot>
