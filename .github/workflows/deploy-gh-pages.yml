@@ -18,6 +18,9 @@ jobs:
         node-version: '12.x'
     - run: yarn
     - run: yarn build
+    # GitHub hides files and dirs starting with _ unless a .nojekyll file is found
+    # See https://docs.github.com/en/enterprise/2.14/user/articles/files-that-start-with-an-underscore-are-missing
+    - run: touch build/.nojekyll
     - run: yarn adapt
     - name: 🚀 Deploy site 🚀
       uses: JamesIves/github-pages-deploy-action@3.7.1
