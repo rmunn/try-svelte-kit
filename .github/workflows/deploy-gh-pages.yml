@@ -25,5 +25,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: deploy # The branch the action should deploy to.
         FOLDER: build # The folder the action should deploy.
-        TARGET_FOLDER: docs # The folder the action should deploy into.
         CLEAN: true # Automatically remove deleted files from the deploy branch
