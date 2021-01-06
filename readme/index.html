@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+
+<link rel="modulepreload" href="/_app/readme-b010928c.js">
+			<link rel="modulepreload" href="/_app/start-4bce0cb3.js">
+			<link rel="modulepreload" href="/_app/Nav-3f033dda.js">
+
+
+		<script type="module">
+			import { start } from '/./_app/entry-7b7a8dae.js';
+			start({
+				target: document.querySelector("#svelte"),
+				host: location.host,
+				paths: {"base":"","assets":"/."},
+				status: 200,
+				error: null,
+				session: void 0
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<main><nav><a href="/">Home</a>
+    <a href="/about">About</a></nav>
+    <h1>Try Svelte Kit</h1>
+<p>A project to try out the current (as of 2021-01-05) state of @sveltejs/kit</p>
+<p>Copyright ⓒ 2021 Robin Munn (<a href="mailto:rmunn@pobox.com">rmunn@pobox.com</a>) and licensed under the <a href="LICENSE.md">MIT license</a>.</p>
+<h2>Original README</h2>
+<p>Everything you need to build a Svelte project, powered by <a href="https://github.com/sveltejs/kit/tree/master/packages/create-svelte" rel="nofollow"><code>create-svelte</code></a>;</p>
+<h2>Creating a project</h2>
+<p>If you’re seeing this, you’ve probably already done this step. Congrats!</p>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># create a new project in the current directory</span>
+<span class="token function">npm</span> init svelte@next
+
+<span class="token comment"># create a new project in my-app</span>
+<span class="token function">npm</span> init svelte@next my-app</code></pre>
+<blockquote><p>Note: the <code>@next</code> is temporary</p></blockquote>
+<h2>Developing</h2>
+<p>Once you’ve created a project and installed dependencies with <code>npm install</code> (or <code>pnpm install</code> or <code>yarn</code>), start a development server:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> run dev
+
+<span class="token comment"># or start the server and open the app in a new browser tab</span>
+<span class="token function">npm</span> run dev -- --open</code></pre>
+<h2>Building</h2>
+<p>Svelte apps are built with <em>adapters</em>, which optimise your project for deployment to different environments, like <a href="https://begin.com" rel="nofollow">Begin</a>, <a href="https://www.netlify.com" rel="nofollow">Netlify</a>, <a href="https://vercel.com" rel="nofollow">Vercel</a> and so on. (You can also create your own adapter — instructions TODO.)</p>
+<p>By default, <code>npm run build</code> will generate a Node app that you can run with <code>node build</code>. To use a different adapter, install it and update your <code>svelte.config.js</code> accordingly. The following official adapters are available:</p>
+<ul><li><a href="https://github.com/sveltejs/kit/tree/master/packages/adapter-node" rel="nofollow">@sveltejs/adapter-node</a></li>
+<li><a href="https://github.com/sveltejs/kit/tree/master/packages/adapter-static" rel="nofollow">@sveltejs/adapter-static</a></li>
+<li><a href="https://github.com/sveltejs/kit/tree/master/packages/adapter-netlify" rel="nofollow">@sveltejs/adapter-netlify</a></li>
+<li>…more soon</li></ul></main>
+
+	
+</div>
+	</body>
+</html>
