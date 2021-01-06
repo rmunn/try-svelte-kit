@@ -16,7 +16,7 @@
 		"esModuleInterop": true,
 		"skipLibCheck": true,
 		"forceConsistentCasingInFileNames": true,
-		"baseUrl": ".",
+		"baseUrl": "/try-svelte-kit",
 		"paths": {
 			"$pages/*": ["./src/pages/*"],
 			"$components/*": ["./src/components/*"]
