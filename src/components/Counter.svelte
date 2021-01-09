@@ -1,4 +1,5 @@
 <script lang="ts">
+	// @hmr:keep
 	let count: number = 0;
 	$: doubled = count * 2;
 
