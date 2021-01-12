@@ -1,7 +1,5 @@
 <script context="module">
-    export async function load({page: {params, query}}) {
-        // Query is available for accessing the foo=bar part of /blog/123?foo=bar
-        const { id } = params;
+    export async function load({page: {params: { id }}}) {
         return { props: { id } };
     }
 </script>
