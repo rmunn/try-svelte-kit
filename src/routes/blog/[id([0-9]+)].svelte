@@ -8,7 +8,7 @@
         console.log(x);
         const p = new Promise(resolve => resolve(x));
         console.log(p);
-        return { id: 5, foo: "bar" };
+        return { props: { id: 5, foo: "bar" } };
     }
 </script>
 
