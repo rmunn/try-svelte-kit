@@ -153,9 +153,9 @@
     mime "^2.4.6"
 
 "@sveltejs/kit@next":
-  version "1.0.0-next.18"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.18.tgz#8cdb33d8c727402be649397748b492aa9e9c05a4"
-  integrity sha512-W2h+NdLTLl9xgLV6ae6e6k/O8alxSqhWRQdKi1tzVI9lZoS7rTiznnsU0aauTGz9+vxo7LgOMwKFDnQvSVZBFg==
+  version "1.0.0-next.21"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.21.tgz#df2fb984f180ef51c86f044a405d46c26d2ef4b9"
+  integrity sha512-ovfIn2jYl1VHHUNOOcaX9UEBkEONYE14BsJ+G1wQ743uzDyzcnn1ipAb5pcHGSiayX57V+sC+Vyc1r4ItOJedQ==
   dependencies:
     "@sveltejs/app-utils" "1.0.0-next.0"
     cheap-watch "^1.0.2"
