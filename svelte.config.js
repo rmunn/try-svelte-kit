@@ -19,6 +19,8 @@ module.exports = {
 		// specifying a different adapter
 		adapter: '@sveltejs/adapter-static',
 
+		paths: { base: '/try-svelte-kit' }, // GitHub Pages deployment base URL
+
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte'
 	}
